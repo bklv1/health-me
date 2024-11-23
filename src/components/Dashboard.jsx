@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Dashboard.css';
-import avatarImage from '../assets/avatar.jpg';
+// import avatarImage from '../assets/avatar.jpg';
 
 const Dashboard = ({ username }) => {
   const [showChallenge, setShowChallenge] = useState(false);
@@ -13,7 +13,7 @@ const Dashboard = ({ username }) => {
   return (
     <div className="dashboard-container">
       <div className="profile-section">
-        <img src={avatarImage} alt="Avatar" className="avatar" />
+        {/*<img src={avatarImage} alt="Avatar" className="avatar" />*/}
         <h2>Welcome, {username}!</h2>
       </div>
       
